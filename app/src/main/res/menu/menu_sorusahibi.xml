@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_blocksahip" android:title="Şikayet et"></item>
+    <item android:id="@+id/menu_dogrucevapisaret" android:title="Doğru cevap olarak işaretle"></item>
+    <item android:id="@+id/menu_cevapyorum" android:title="Cevaba yorum yap"></item>
+</menu>

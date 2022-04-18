@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/okunanlari_sil" android:title="Okunan Bildirimleri Sil"></item>
+    <item android:id="@+id/tumunu_sil" android:title="Tüm Bildirimleri Sil"></item>
+
+</menu>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/addfabbutton.xml" value="0.12314814814814815" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/badge_shape.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/border.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/buttonback3.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/buttonbackground5.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/camera.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/cameraselect.xml" value="0.1" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/cameraselectok.xml" value="0.1" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/cameraselectprofile.xml" value="0.1" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/cevapla.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/deletenot.xml" value="0.1" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/detail_button.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/detail_button2.xml" value="0.12314814814814815" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/detail_button3.xml" value="0.12314814814814815" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/dogrucevap.xml" value="0.1" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/dotimage.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/dotwhite.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/edittextbackground.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/filter.xml" value="0.1" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/mediaselected.xml" value="0.1" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/mediaselectok.xml" value="0.1" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/mediaselectprofile.xml" value="0.1" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/menu_icon.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/menu_notification.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/menuitem.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/notificationimage.xml" value="0.10648148148148148" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/rating.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/search.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/selector_fav.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/share.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/spinnerbackground.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/star_fav_emty.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/star_fav_full.xml" value="0.25" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/textviewbackground.xml" value="0.1" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/drawable/xml.xml" value="0.10740740740740741" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/activity_cevap.xml" value="0.25" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/activity_cevap_detail.xml" value="0.33" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/activity_ders.xml" value="0.22" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/activity_detail.xml" value="0.33" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/activity_detail_last.xml" value="0.33" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/activity_detail_new.xml" value="0.25" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/activity_feed.xml" value="0.22" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/activity_kayit.xml" value="0.2" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/activity_notification.xml" value="0.25" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/activity_profile_watch_activity.xml" value="0.25" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/activity_upload.xml" value="0.22" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/activity_upload_new.xml" value="0.25" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/activity_upload_r.xml" value="0.25" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/activity_welcome.xml" value="0.21" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/border.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/cart_action_item.xml" value="0.5" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/cevap_detail_alert.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/cevap_detail_row.xml" value="0.5" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/ders_row.xml" value="0.33" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/fragment_ders_main.xml" value="0.25" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/fragment_ders_profil.xml" value="0.25" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/fragment_detail_cevap.xml" value="0.25" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/fragment_detail_soru.xml" value="0.22" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/fragment_favoriler.xml" value="0.25" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/fragment_feed_main.xml" value="0.19067028985507245" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/fragment_sorularim.xml" value="0.25" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/gorsel_sec.xml" value="0.22" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/navigation_baslik.xml" value="0.33" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/navigation_baslik_feed.xml" value="0.25" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/odev_feed_row.xml" value="0.33" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/recycler_notification_row.xml" value="0.33" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/layout/switch_item.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/menu/bildirim_sil.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/menu/menu_admin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/menu/menu_block.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/menu/menu_cevap_delete.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/menu/menu_delete.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/menu/menu_ders.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/menu/menu_ders_filter.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/menu/menu_feed.xml" value="0.22" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/menu/menu_notification.xml" value="0.33" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/menu/menu_sorusahibi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/menu/nav_feedmenu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/menu/popup_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/menu/popup_profil.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2203125" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/xml/fileprovider.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/EndOto/AndroidStudioProjects/OdeviniPaylas/app/src/main/res/xml/fileproviders.xml" value="0.14673913043478262" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

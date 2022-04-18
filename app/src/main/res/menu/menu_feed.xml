@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/search"
+        android:title="@string/arama"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item android:id="@+id/menu_filter" android:icon="@drawable/filter" android:title="@string/filtre"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/filter_tum" android:title="@string/tum_dersler"/>
+            <item android:id="@+id/filter_gkgy" android:title="@string/genel_kultur_genel_yetenek"/>
+            <item android:id="@+id/filter_eb" android:title="@string/egitim_bilimleri"/>
+            <item android:id="@+id/filter_oabt" android:title="@string/oabt"/>
+            <item android:id="@+id/filter_agrubu" android:title="@string/a_grubu"/>
+        </menu>
+
+
+    </item>
+
+
+
+
+    <item
+        android:id="@+id/menu_notification"
+        android:icon="@drawable/menu_notification"
+        android:title="@string/bildirim"
+        app:showAsAction="always"
+        app:actionLayout="@layout/cart_action_item" />
+
+
+</menu>

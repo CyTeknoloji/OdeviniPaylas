@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sorunu Paylas Kpss</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="onesignal_notification_accent_color">0077c2</string>
+    <string name="arama">Arama</string>
+    <string name="tum_dersler">Tüm Dersler</string>
+    <string name="genel_kultur_genel_yetenek">Genel Kültür Genel Yetenek</string>
+    <string name="egitim_bilimleri">Eğitim Bilimleri</string>
+    <string name="oabt">ÖABT</string>
+    <string name="a_grubu">A Grubu</string>
+    <string name="filtre">filtre</string>
+    <string name="bildirim">bildirim</string>
+    <string name="cevabiaciklayin">Cevabı Açıklayın:</string>
+    <string name="cevabiyukle">cevabı yükle</string>
+    <string name="sorunu_paylas">SORUNU PAYLAŞ</string>
+    <string name="eposta">Eposta:</string>
+    <string name="kullaniciadi">Kullanıcı Adı:</string>
+    <string name="sifrenizi_tekrar_girin">Şifrenizi tekrar girin:</string>
+    <string name="sifreniz">Şifreniz:</string>
+    <string name="kayit_ol">Kayıt Ol</string>
+    <string name="giris_yap">Giriş Yap</string>
+
+
+</resources>

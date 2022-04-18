@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1014690464588",
+    "project_id": "sorunu-paylas",
+    "storage_bucket": "sorunu-paylas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014690464588:android:c8d493e5a502beda7f85e9",
+        "android_client_info": {
+          "package_name": "com.caneryildirim.odevinipaylas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014690464588-msrnf5vok7o98ss59t57hecl469ihocp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBidF3vnc76-IO6t10b0ZmPA2spkKHSpl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014690464588-msrnf5vok7o98ss59t57hecl469ihocp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014690464588:android:07ac78034f0636527f85e9",
+        "android_client_info": {
+          "package_name": "com.caneryildirim.sorunupaylas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014690464588-msrnf5vok7o98ss59t57hecl469ihocp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBidF3vnc76-IO6t10b0ZmPA2spkKHSpl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014690464588-msrnf5vok7o98ss59t57hecl469ihocp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
