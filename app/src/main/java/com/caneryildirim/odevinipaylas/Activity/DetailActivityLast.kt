@@ -44,6 +44,7 @@ import com.caneryildirim.odevinipaylas.Adaptors.Singleton.userPhotoUrlFragment
 import com.caneryildirim.odevinipaylas.Adaptors.Singleton.userUidFragment
 import com.caneryildirim.odevinipaylas.Adaptors.Takipci
 import com.caneryildirim.odevinipaylas.R
+import com.caneryildirim.odevinipaylas.Util.downloadFromUrl
 import com.caneryildirim.odevinipaylas.databinding.ActivityDetailLastBinding
 import com.caneryildirim.odevinipaylas.databinding.CevapDetailAlertBinding
 import com.google.android.material.snackbar.Snackbar
@@ -169,6 +170,7 @@ class DetailActivityLast : AppCompatActivity(), RecyclerCevapAdaptor.Delete {
             binding.imageUserProfileDetailLast.setImageResource(R.drawable.profileperson)
         }else{
             Picasso.get().load(userPhotoUrlFragment).into(binding.imageUserProfileDetailLast)
+            //binding.imageUserProfileDetailLast.downloadFromUrl(userPhotoUrlFragment,this)
         }
 
         //Tarih ile ilgili işlemlerin başlangıcı
@@ -210,6 +212,7 @@ class DetailActivityLast : AppCompatActivity(), RecyclerCevapAdaptor.Delete {
 
 
         Picasso.get().load(downloadUrlFragment).into(binding.imageSoruDetailLast)
+        //binding.imageSoruDetailLast.downloadFromUrl(downloadUrlFragment,this)
 
         binding.imageSoruDetailLast.setOnClickListener {
             val bindingAlert= CevapDetailAlertBinding.inflate(layoutInflater)
@@ -525,12 +528,14 @@ class DetailActivityLast : AppCompatActivity(), RecyclerCevapAdaptor.Delete {
                     referenceOdev.update("dogruCevapImage","null").addOnSuccessListener {}
                 }
 
+
                 Toast.makeText(this,"Cevabın silindi",Toast.LENGTH_SHORT).show()
                 cevapArrayList.clear()
+                referenceRegistration.remove()
+                getData()
                 adapterCevap.notifyDataSetChanged()
 
-                //getData()     
-            // dikkat et yeni iptal ettin    07.06.2022 kontrolleri yapılmadı
+
 
 
             }.addOnFailureListener {
@@ -541,15 +546,18 @@ class DetailActivityLast : AppCompatActivity(), RecyclerCevapAdaptor.Delete {
             refDb.delete().addOnSuccessListener {
                 if (cevapArrayList[position].dogruCevap==true){
                     val referenceOdev=db.collection("Odev").document(cevapArrayList[position].soruUid)
-                    referenceOdev.update("dogruCevap",false).addOnSuccessListener {
-
-                    }
+                    referenceOdev.update("dogruCevap",false).addOnSuccessListener {}
+                    referenceOdev.update("dogruCevapString","null").addOnSuccessListener {}
+                    referenceOdev.update("dogruCevapImage","null").addOnSuccessListener {}
                 }
 
                 Toast.makeText(this,"Cevabın silindi",Toast.LENGTH_SHORT).show()
                 cevapArrayList.clear()
+                referenceRegistration.remove()
+                getData()
                 adapterCevap.notifyDataSetChanged()
-                //getData()     //dikkat et yeni iptal ettin
+
+
 
             }.addOnFailureListener {
                 Toast.makeText(this,"Cevap silinirken sorun oluştu", Toast.LENGTH_SHORT).show()

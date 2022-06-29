@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.caneryildirim.odevinipaylas.Activity.DetailActivityLast
 import com.caneryildirim.odevinipaylas.Activity.ProfileWatchActivity
 import com.caneryildirim.odevinipaylas.R
+import com.caneryildirim.odevinipaylas.Util.downloadFromUrl
 import com.caneryildirim.odevinipaylas.databinding.OdevFeedRowBinding
 import com.google.firebase.Timestamp
 import com.squareup.picasso.Picasso
@@ -97,10 +98,12 @@ class RecyclerOdevAdaptor( val delete:Delete, val odevArrayList: ArrayList<Odev>
 
         holder.binding.odevFeedImageview.setImageResource(R.drawable.whiteimage)
         Picasso.get().load(filterOdevArrayList[position].downloadUrl).placeholder(R.drawable.whiteimage).into(holder.binding.odevFeedImageview)
+        //holder.binding.odevFeedImageview.downloadFromUrl(filterOdevArrayList[position].downloadUrl,holder.itemView.context)
         if (filterOdevArrayList[position].userPhotoUrl=="null"){
             holder.binding.userProfileOdevImageview.setImageResource(R.drawable.personfeed)
         }else{
             Picasso.get().load(filterOdevArrayList[position].userPhotoUrl).into(holder.binding.userProfileOdevImageview)
+            //holder.binding.userProfileOdevImageview.downloadFromUrl(filterOdevArrayList[position].userPhotoUrl,holder.itemView.context)
         }
 
         holder.itemView.setOnClickListener {

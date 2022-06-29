@@ -12,8 +12,8 @@ android {
         applicationId "com.caneryildirim.odevinipaylas"
         minSdk 23
         targetSdk 31
-        versionCode 11
-        versionName "2.0"
+        versionCode 12
+        versionName "2.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -37,6 +37,11 @@ android {
 }
 
 dependencies {
+
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
+
+    implementation("androidx.core:core-ktx:1.8.0")
 
     implementation 'androidx.core:core-ktx:1.6.0'
     implementation 'androidx.appcompat:appcompat:1.3.1'
