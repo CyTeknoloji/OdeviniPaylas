@@ -106,7 +106,6 @@ class DetailActivityLast : AppCompatActivity(), RecyclerCevapAdaptor.Delete {
     }
 
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= ActivityDetailLastBinding.inflate(layoutInflater)
@@ -172,6 +171,8 @@ class DetailActivityLast : AppCompatActivity(), RecyclerCevapAdaptor.Delete {
             Picasso.get().load(userPhotoUrlFragment).into(binding.imageUserProfileDetailLast)
         }
 
+        //Tarih ile ilgili işlemlerin başlangıcı
+
         val now= Timestamp.now().toDate().time
         val nowTime=getTimeDate(now)
         val firstTime=getTimeDate(Singleton.dateFragment!!)
@@ -179,34 +180,34 @@ class DetailActivityLast : AppCompatActivity(), RecyclerCevapAdaptor.Delete {
         val firstDate=format.parse(firstTime)
         val nowDate= format.parse(nowTime)
         val diff=nowDate.time-firstDate.time
-        val farkDakika=diff/(60*1000) %60
-        val farkDakikaInt=farkDakika.toInt()
-        val farkSaat=diff/(60*60*1000) %60
-        val farkSaatInt=farkSaat.toInt()
-        val farkGun=diff/(24*60*60*1000) %24
-        val farkGunInt=farkGun.toInt()
-        val farkHafta=diff/(7*24*60*60*1000) %7
-        val farkHaftaInt=farkHafta.toInt()
-        val farkAy=diff/(30*24*60*60) %0.003
-        val farkAyInt=farkAy.toInt()
-        val farkYil=diff/(12*30*24*60*60) %0.012
-        val farkYilInt=farkYil.toInt()
 
-        if (farkYilInt==0 && farkAyInt==0 && farkHaftaInt==0 && farkGunInt==0 && farkSaatInt==0 &&farkDakikaInt==0){
+        val farkDakika=diff/(60*1000)
+        val farkSaat=farkDakika/60
+        val farkGun=farkSaat/24
+        val farkHafta=farkGun/7
+        val farkAy=farkHafta/4
+        val farkYil=farkAy/12
+
+
+        if (farkYil.toInt()==0 && farkAy.toInt()==0 && farkHafta.toInt()==0 && farkGun.toInt()==0 && farkSaat.toInt()==0 && farkDakika.toInt()==0){
             binding.textTimeDetailLast.text="Şimdi"
-        }else if (farkYilInt==0 && farkAyInt==0 && farkHaftaInt==0 && farkGunInt==0 && farkSaatInt==0 && farkDakikaInt!=0){
+        }else if (farkYil.toInt()==0 && farkAy.toInt()==0 && farkHafta.toInt()==0 && farkGun.toInt()==0 && farkSaat.toInt()==0 && farkDakika.toInt()<61){
             binding.textTimeDetailLast.text="${farkDakika} Dk Önce"
-        }else if (farkYilInt==0 && farkAyInt==0 && farkHaftaInt==0 && farkGunInt==0 && farkSaatInt!=0){
+        }else if (farkYil.toInt()==0 && farkAy.toInt()==0 && farkHafta.toInt()==0 && farkGun.toInt()==0 && farkSaat.toInt()<25){
             binding.textTimeDetailLast.text="${farkSaat} Saat Önce"
-        }else if (farkYilInt==0 && farkAyInt==0 && farkHaftaInt==0 &&farkGunInt!=0){
+        }else if (farkYil.toInt()==0 && farkAy.toInt()==0 && farkHafta.toInt()==0 &&farkGun.toInt()<8){
             binding.textTimeDetailLast.text="${farkGun} Gün Önce"
-        }else if (farkYilInt==0 && farkAyInt==0 && farkHaftaInt!=0){
+        }else if (farkYil.toInt()==0 && farkAy.toInt()==0 && farkHafta.toInt()<5){
             binding.textTimeDetailLast.text="${farkHafta} Hafta Önce"
-        }else if (farkYilInt==0 && farkAyInt!=0){
+        }else if (farkYil.toInt()==0 && farkAy.toInt()<13){
             binding.textTimeDetailLast.text="${farkAy} Ay Önce"
-        }else if (farkYilInt!=0){
+        }else if (farkYil.toInt()!=0){
             binding.textTimeDetailLast.text="${farkYil} Yıl Önce"
         }
+
+        // Tarih ile ilgili işlemlerin sonu
+
+
 
         Picasso.get().load(downloadUrlFragment).into(binding.imageSoruDetailLast)
 
@@ -305,7 +306,7 @@ class DetailActivityLast : AppCompatActivity(), RecyclerCevapAdaptor.Delete {
                         }
                         true
                     }else if (it.itemId==R.id.menu_ustecikar){
-                        if (farkGunInt<2){
+                        if (farkGun.toInt()<2){
                             Toast.makeText(this,"En az 2 gün geçmesi gerekli", Toast.LENGTH_SHORT).show()
                         }else {
 
@@ -527,7 +528,9 @@ class DetailActivityLast : AppCompatActivity(), RecyclerCevapAdaptor.Delete {
                 Toast.makeText(this,"Cevabın silindi",Toast.LENGTH_SHORT).show()
                 cevapArrayList.clear()
                 adapterCevap.notifyDataSetChanged()
-                //getData()     //dikkat et yeni iptal ettin
+
+                //getData()     
+            // dikkat et yeni iptal ettin    07.06.2022 kontrolleri yapılmadı
 
 
             }.addOnFailureListener {
@@ -800,7 +803,7 @@ class DetailActivityLast : AppCompatActivity(), RecyclerCevapAdaptor.Delete {
                                 binding.progressBarDetailLast.visibility=View.INVISIBLE
                                 cevapArrayList.clear()
                                 adapterCevap.notifyDataSetChanged()
-                                getData()    //buradan sorun çıkıyor olabilir
+                                getData()    //buradan sorun çıkıyor olabilir 07.06.2022 kontroller yapılmadı
                                 binding.cevapTextLast.setText("")
                                 binding.selectCameraLast.setImageResource(R.drawable.cameraselect)
                                 binding.selectMediaLast.setImageResource(R.drawable.mediaselected)
@@ -1062,7 +1065,7 @@ class DetailActivityLast : AppCompatActivity(), RecyclerCevapAdaptor.Delete {
 
     override fun onBackPressed() {
         super.onBackPressed()
-        referenceRegistration.remove()      //yeni denedin
+        referenceRegistration.remove()
     }
 
     @Throws(IOException::class)
