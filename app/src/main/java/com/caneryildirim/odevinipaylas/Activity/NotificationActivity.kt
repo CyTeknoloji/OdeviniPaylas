@@ -206,6 +206,7 @@ class NotificationActivity : AppCompatActivity(),RecyclerNotificationAdaptor.Cli
                                         val dogruCevapString=it.get("dogruCevapString") as String?
                                         val dogruCevapImage=it.get("dogruCevapImage") as String?
                                         val date=it.get("date") as Timestamp
+                                        val dateTime=date.toDate().time
                                         val info="notification"
 
                                         val intent=Intent(this,DetailActivityLast::class.java)
@@ -224,7 +225,7 @@ class NotificationActivity : AppCompatActivity(),RecyclerNotificationAdaptor.Cli
                                         intent.putExtra("dogruCevap",dogruCevap)
                                         intent.putExtra("dogruCevapString",dogruCevapString)
                                         intent.putExtra("dogruCevapImage",dogruCevapImage)
-                                        intent.putExtra("date",date)
+                                        intent.putExtra("date",dateTime)
                                         startActivity(intent)
 
                                     }
