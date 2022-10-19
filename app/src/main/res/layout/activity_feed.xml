@@ -20,7 +20,7 @@
             android:id="@+id/toolbarFeed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/purple_200"
+            android:background="@color/purple_500"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
             app:collapseIcon="@drawable/backbutton"
@@ -48,8 +48,8 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        app:itemIconTint="@color/purple_500"
-        app:itemTextColor="@color/purple_500"
+        app:itemIconTint="@color/purple_200"
+        app:itemTextColor="@color/purple_200"
         app:menu="@menu/nav_feedmenu" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

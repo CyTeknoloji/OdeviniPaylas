@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="#FFFFFF"
     tools:context=".Fragments.FragmentDersMain">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -24,10 +23,10 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:background="#FFFFFF"
-        android:backgroundTint="@color/purple_200"
+        android:backgroundTint="@color/fabcolor"
         android:clickable="true"
         android:src="@drawable/addfabbutton"
-        app:backgroundTint="@color/purple_200"
+        app:backgroundTint="@color/fabcolor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:tint="#FFFFFF" />

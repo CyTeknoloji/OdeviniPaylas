@@ -9,6 +9,7 @@
         android:id="@+id/cartViewDers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/cardviewcolor"
         app:cardCornerRadius="6dp"
         app:cardPreventCornerOverlap="false"
         app:cardUseCompatPadding="true"

@@ -8,15 +8,14 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/profilebackground2">
+        android:layout_height="match_parent">
 
         <Button
             android:id="@+id/buttonProfile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:backgroundTint="@color/purple_500"
+            android:backgroundTint="@color/purple_200"
             android:text="Profili Güncelle"
             android:textSize="12sp"
             app:cornerRadius="18dp"
@@ -38,11 +37,11 @@
         <TextView
             android:id="@+id/emailProfileText"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
-            android:gravity="center"
+            android:background="@color/spinnercolor"
             android:text="email"
             android:textSize="19sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -54,9 +53,10 @@
             android:id="@+id/editTextUserName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
-            android:layout_marginEnd="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/spinnercolor"
             android:cursorVisible="false"
             android:ems="10"
             android:hint="Kullanıcı adı"
@@ -72,7 +72,7 @@
             android:id="@+id/buttonPassReset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/purple_500"
+            android:backgroundTint="@color/purple_200"
             android:text="Parolanı sıfırla"
             android:textSize="12sp"
             app:cornerRadius="18dp"

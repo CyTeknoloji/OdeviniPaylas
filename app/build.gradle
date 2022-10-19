@@ -10,10 +10,10 @@ android {
 
     defaultConfig {
         applicationId "com.caneryildirim.odevinipaylas"
-        minSdk 23
-        targetSdk 31
-        versionCode 13
-        versionName "2.2"
+        minSdk 24
+        targetSdk 32
+        versionCode 14
+        versionName "2.3"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
