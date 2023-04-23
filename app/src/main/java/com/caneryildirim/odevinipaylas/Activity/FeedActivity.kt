@@ -263,11 +263,11 @@ class FeedActivity : AppCompatActivity() {
             itemFilter.isVisible = dersFeed=="Tüm Dersler"
 
             val viewNotification=itemNotification.actionView
-            cartBadgeTextview=viewNotification.findViewById<TextView>(R.id.cart_badge_textview)
+            cartBadgeTextview=viewNotification?.findViewById<TextView>(R.id.cart_badge_textview)
             getNotData()
 
 
-            viewNotification.setOnClickListener {
+            viewNotification?.setOnClickListener {
                 onOptionsItemSelected(item)
                 val intentNot=Intent(this,NotificationActivity::class.java)
                 startActivity(intentNot)

@@ -6,12 +6,12 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.caneryildirim.odevinipaylas"
         minSdk 24
-        targetSdk 32
+        targetSdk 33
         versionCode 15
         versionName "2.4"
 
