@@ -112,6 +112,10 @@ class FeedActivity : AppCompatActivity() {
             mInterstitialAd=null
         }
 
+        MobileAds.initialize(this) {}
+        val adRequest = AdRequest.Builder().build()
+        binding.adView.loadAd(adRequest)
+
         val pId= OneSignal.getDeviceState()?.userId.toString()
         val sharedPreferences=this.getSharedPreferences("com.caneryildirim.odevinipaylas",Context.MODE_PRIVATE)
         val sharedInfo=sharedPreferences.getBoolean("info",false)
