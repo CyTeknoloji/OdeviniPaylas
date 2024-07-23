@@ -10,8 +10,8 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.4.0'
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10'
-        classpath 'com.google.gms:google-services:4.3.10'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0'
+        classpath 'com.google.gms:google-services:4.3.14'
         classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.12.10, 0.99.99]'
 
 

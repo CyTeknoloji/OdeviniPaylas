@@ -52,7 +52,7 @@ class WelcomeActivity : AppCompatActivity() {
 
             }
 
-            override fun onAdFailedToShowFullScreenContent(adError: AdError?) {
+            override fun onAdFailedToShowFullScreenContent(p0: AdError) {
 
             }
 
